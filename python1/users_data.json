@@ -1,0 +1,1 @@
+{"guru": {"password": "gurupass", "role": "guru"}, "lilik": {"password": "123", "role": "guru"}, "siswa": {"password": "siswapass", "role": "siswa"}, "siswa_baru": {"password": "siswa123", "role": "siswa"}, "sandi": {"password": "123", "role": "siswa"}, "diyan": {"password": "123", "role": "guru"}}

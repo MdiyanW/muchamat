@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Learning Material</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='add_material_styles.css') }}">
+</head>
+<body>
+    <h1>Add Learning Material</h1>
+    <form action="/guru/add_material" method="post">
+        Title: <input type="text" name="title"><br>
+        Content: <textarea name="content"></textarea><br>
+        <input type="submit" value="Add Material">
+    </form>
+
+    <br>
+
+    <!-- Add a link to go back to the Guru Dashboard -->
+    <a href="/guru/dashboard">Back to Guru Dashboard</a>
+</body>
+</html>
